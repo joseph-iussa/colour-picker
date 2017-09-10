@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import HSLColourSelector from './HSLColourSelector';
 
 ReactDOM.render(
-    <h1>Hello World!</h1>,
+    <HSLColourSelector />,
     document.getElementById('root')
 );
